@@ -153,7 +153,7 @@ def load_and_preprocess_data(data_dir):
 
 if __name__ == "__main__":
 
-    BASE_DIR = Path(__file__).resolve().parents[1]
+    BASE_DIR = Path(__file__).resolve().parents[2]
 
     DATA_DIR = BASE_DIR / "data" / "Student folder"
 
