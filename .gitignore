@@ -1,4 +1,25 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.egg-info/
 .venv/
 venv/
+env/
+
+# OS & Editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Raw / Evaluator Data & Large Intermediate Outputs
+data/
+artifacts/models/
+experiments/results/student_test_predictions_*.csv
+*.env
+.env
+secrets/
+
+# Temporary verification outputs
+tmp_verify/

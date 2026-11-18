@@ -1,0 +1,13 @@
+[
+  "perp_dist_m",
+  "heading_diff_deg",
+  "cos_heading_diff",
+  "speed_mps",
+  "proj_ratio",
+  "arc_length_m",
+  "dist_rank",
+  "dist_diff_from_min",
+  "node_degree",
+  "gps_bearing",
+  "road_bearing"
+]
