@@ -1,0 +1,40 @@
+{
+  "model_key": "hist_gradient_boosting",
+  "model_display_name": "HistGradientBoosting",
+  "algorithm_family": "Boosting",
+  "best_hyperparameters": {
+    "learning_rate": 0.05601091280481933,
+    "max_leaf_nodes": 18,
+    "min_samples_leaf": 79,
+    "l2_regularization": 0.00013104868842554867,
+    "max_iter": 393,
+    "max_bins": 254
+  },
+  "feature_columns": [
+    "perp_dist_m",
+    "heading_diff_deg",
+    "cos_heading_diff",
+    "speed_mps",
+    "proj_ratio",
+    "arc_length_m",
+    "dist_rank",
+    "dist_diff_from_min",
+    "node_degree",
+    "gps_bearing",
+    "road_bearing"
+  ],
+  "random_seed": 42,
+  "tuned_cv_metrics": {
+    "cv_macro_f1": 0.8556120105312297,
+    "cv_macro_f1_std": 0.02700892605257982,
+    "cv_top1_accuracy": 0.6960660576823897,
+    "cv_log_loss": 0.1376577037672959
+  },
+  "tuned_student_test_summary": {
+    "top1_accuracy": 0.8044885177453027,
+    "macro_f1": 0.8877681940600067,
+    "log_loss": 0.09631813629829235,
+    "route_continuity": 0.8995300261096606,
+    "candidate_miss_rate": 0.0024008350730688934
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "train": {
+    "name": "train",
+    "num_rows": 2084170,
+    "num_trips": 80,
+    "num_observations_in_candidates": 208417,
+    "avg_candidates_per_obs": 10.0,
+    "positive_candidates": 192878,
+    "negative_candidates": 1891292,
+    "positive_rate": 0.09254,
+    "num_features": 11,
+    "missing_values_by_feature": {}
+  },
+  "student_test": {
+    "name": "student_test",
+    "num_rows": 191600,
+    "num_trips": 10,
+    "num_observations_in_candidates": 19160,
+    "avg_candidates_per_obs": 10.0,
+    "positive_candidates": 19114,
+    "negative_candidates": 172486,
+    "positive_rate": 0.09976,
+    "num_features": 11,
+    "missing_values_by_feature": {}
+  },
+  "road_arcs_trips_loaded": 90,
+  "reference_routes_trips_loaded": 90
+}
